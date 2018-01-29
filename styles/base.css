@@ -15,33 +15,69 @@ h4,
 h5,
 p,
 a {
-  font-family: "tex_gyre_adventorbold", "ITC AvantGarde Gothic", Helvetica Neue, sans-serif;
+  font-family: "tex_gyre_adventorbold", "ITC AvantGarde Gothic", Futura-Medium, sans-serif;
   color: #333; }
 
 body,
 html {
+  height: 100%;
+  font-size: 15px; }
+
+section {
   height: 100%; }
 
-a:hover {
-  color: #2d0ee6; }
-
-#innerBorder {
+#border-left,
+#border-top,
+#border-right,
+#border-bottom {
   position: fixed;
-  width: 100%;
-  height: 100%;
-  outline: 15px solid #2d0ee6;
-  outline-offset: -15px;
-  z-index: 1; }
+  background-color: #2d0ee6;
+  z-index: 998; }
 
-section#topNavigation .container {
+#border-left {
+  width: 15px;
+  height: 100%;
+  top: 0;
+  left: 0; }
+
+#border-right {
+  width: 15px;
+  height: 100%;
+  top: 0;
+  right: 0; }
+
+#border-top {
+  width: 100%;
+  height: 15px;
+  top: 0;
+  left: 0; }
+
+#border-bottom {
+  width: 100%;
+  height: 15px;
+  bottom: 0;
+  left: 0; }
+
+div#topNavigation .container {
   padding-top: 20px; }
-section#topNavigation li a.nav-link {
+div#topNavigation li a.nav-link {
   font-weight: bold;
   color: #333; }
+div#topNavigation li.active a.nav-link,
+div#topNavigation a.nav-link:hover {
+  color: #2d0ee6; }
 
 section#header {
   width: 100%;
   height: 100%;
   background-color: white; }
+
+section#work .card hr {
+  height: 5px;
+  color: #2d0ee6;
+  width: 25%; }
+
+.footer {
+  width: 100%; }
 
 /*# sourceMappingURL=base.css.map */
