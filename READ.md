@@ -1,30 +1,26 @@
-##Use Case
+## Use Case
 
 A personal portfolio and blog allows you to share your work and stories with potential employers. Writing project case studies help employers understand your development and implementation processes. Blogging helps you display your personality and insight.
 
+## User stories
 
-##User Stories
+## Implementation goal
+### Homepage
+- [ ] on hover, work grid has color overlay and white text
+  - currently grid is mostly default BS card
+- [ ] about section words
+- [ ] contact section words
+- [ ] contact section
 
-| User Story     | Difficulty Rating     |
-| :------------- | :------------- |
-| As a user,  I want to see list of her works | 1|
-| As a user, I want to 
-| User can
-| Static Case studies to show my analytic skills and understanding of products | 1 |
-| Hamburger menu small icon on the upper right corner | 2 |
-| As a developer, I want to allow visitors to contact me       | 1       |
+### Work exhibition page
+- [ ] write content and put in the page
+- [ ] design page
 
+## Framework / Tools used
+- SCSS
+- Bootstrap 4.0
 
-
-| As a developer, I want to write a case study for each project I've completed       | 4       |
-| As a developer, I want to write blog posts about my journey into development       | 3       |
-
-| As a developer, I want to track visits and visitors of my portfolio       | 1       |
-| As a developer, I want to deploy my portfolio to GitHub Pages       | 1       |
-| As a developer, I want to use a custom domain name for my portfolio       | 2     |
-
-Usage of SCSS or Sass
-Use Bootstrap 4 UI framework
+## Further questions
 
 Design Goal
 High contrast
@@ -41,5 +37,3 @@ h1, h1 {
 /*竟然就很好看？？！*/
 
 ```
-Style Reference
-https://www.brooklynmuseum.org/exhibitions

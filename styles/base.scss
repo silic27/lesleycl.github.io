@@ -1,5 +1,6 @@
 // Global Styles variables
 // ≈ design specification for the website
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 @font-face {
     font-family: 'tex_gyre_adventorbold';
     src: url('../assets/fonts/texgyreadventor-bold-webfont.woff') format('woff');
@@ -11,9 +12,9 @@
     src: url('../assets/fonts/texgyreadventor-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-$fontStack: 'tex_gyre_adventorbold', "ITC AvantGarde Gothic", Futura-Medium, sans-serif;
+$fontStack1: 'tex_gyre_adventorbold', "ITC AvantGarde Gothic", Futura-Medium, sans-serif;
+$fontStack2: 'Roboto', Helvetica, sans-serif;
 $highlightColor: #2d0ee6;  // indigo-blue
 $complementColor: #FFE010;
 $backgroundColor: #ebebeb;
@@ -38,20 +39,37 @@ h2,
 h3,
 h4,
 h5,
-p,
 a {
-  font-family: $fontStack;
+  font-family: $fontStack1;
   color: $mainColor1;
+}
+
+p {
+  font-family: $fontStack2;
+  font-size: 1rem;
 }
 
 body,
 html {
   height: 100%;
   font-size: 15px;
+  background-color: $backgroundColor;
 }
 
 section {
   height: 100%;
+  .container {
+    padding-top: 12rem;
+  }
+}
+
+.btn {
+  border-color: $highlightColor;
+  color: $highlightColor;
+  border-radius: 0;
+  &:hover {
+    background-color: $highlightColor;
+  }
 }
 #border-left,
 #border-top,
@@ -106,11 +124,20 @@ section#header {
   background-color: white;
 }
 section#work {
-  .card {
-    hr {
-      height: 5px;
-      color: $highlightColor;
-      width: 25%;
+  .workCard {
+    .card-body {
+      background-color:white;
+      padding: 1rem;
+      h5.card-title {
+        font-size: 3rem;
+      }
+      hr {
+        height: 3px;
+        color: $highlightColor;
+        width: 25%;
+        margin-left: 0;
+        background-color: $highlightColor;
+      }
     }
   }
 }
