@@ -1,21 +1,40 @@
 ## Use Case
-
+Personal Portfolio for design projects' showcase.
 A personal portfolio and blog allows you to share your work and stories with potential employers. Writing project case studies help employers understand your development and implementation processes. Blogging helps you display your personality and insight.
 
 ## User stories
 
 ## Implementation goal
 ### Homepage
-- [ ] about section words
-- [ ] update Resume
-- [ ] contact section words
-- [ ] contact section
+#### Top navbar
+- [ ]hamburger menu under mobile
+- [ ]smooth scroll to next section
+- [ ]jump to top on longer pages
+
+#### Landing screen
+- [ ]background: particle effect? photo?
+- [ ]Styling words
+
+#### "work"
 - [ ] on hover, work grid has color overlay and white text
   - currently grid is mostly default BS card
-- [ ] 
-### Work exhibition page
-- [ ] write content and put in the page
+
+#### "about"
+- [ ] "about" section words
+- [x] update Resume
+
+#### "contact"
+- [x] contact section words
+- [x] contact section
+- [ ] fill-in form to contact? more interactive? more design?
+
+### Work Exhibition
+#### StyleUp
 - [ ] design page
+
+#### spacemealbox
+#### dianrong
+- [ ] write content and put in the page
 
 ## Framework / Tools used
 - SCSS
