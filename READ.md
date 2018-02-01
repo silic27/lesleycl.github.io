@@ -8,8 +8,6 @@ A personal portfolio and blog allows you to share your work and stories with pot
 ### Homepage
 #### Top navbar
 - [ ]hamburger menu under mobile
-- [ ]smooth scroll to next section
-- [ ]jump to top on longer pages
 
 #### Landing screen
 - [ ]background: particle effect? photo?
@@ -33,6 +31,8 @@ A personal portfolio and blog allows you to share your work and stories with pot
 - [ ] design page
 
 #### spacemealbox
+- [ ] write content and put in the page
+
 #### dianrong
 - [ ] write content and put in the page
 
@@ -41,11 +41,14 @@ A personal portfolio and blog allows you to share your work and stories with pot
 - Bootstrap 4.0
 
 ## Further questions
+- [ ] smooth scroll to next section
+- [ ] "jump to top" button on longer pages
+- [ ] can I populate HTMLs based on one template for "works"?
 
-Design Goal
+Design pref:
 High contrast
 ```
-h1, h1 {
+h1 {
     margin: .35em 0;
     line-height: 1.25em;
     font-family: Helvetica,Arial,sans-serif;
