@@ -17,7 +17,7 @@ A personal portfolio and blog allows you to share your work and stories with pot
 - [ ] on hover, work grid has color overlay and white text
   - currently grid is mostly default BS card
 
-#### "about"
+#### "about" (currently combined into landing screen)
 - [ ] "about" section words
 - [x] update Resume
 
@@ -27,6 +27,8 @@ A personal portfolio and blog allows you to share your work and stories with pot
 - [ ] fill-in form to contact? more interactive? more design?
 
 ### Work Exhibition
+- [ ] each page link to "next" and "previous" project
+- [ ] each image is a modal can click open larger version
 #### StyleUp
 - [ ] design page
 
@@ -42,6 +44,7 @@ A personal portfolio and blog allows you to share your work and stories with pot
 
 ## Further questions
 - [ ] smooth scroll to next section
+- [ ] Fade-in & Fade-out between pages
 - [ ] "jump to top" button on longer pages
 - [ ] can I populate HTMLs based on one template for "works"?
 
