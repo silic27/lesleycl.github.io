@@ -105,6 +105,9 @@ section {
 }
 
 div#topNavigation {
+  nav {
+    background-color: $backgroundColor;
+  }
   .container {
     padding-top: 20px;
   }
@@ -112,7 +115,6 @@ div#topNavigation {
     font-weight: bold;
     color: $mainColor1;
   }
-  li.active a.nav-link,
   a.nav-link:hover {
     color: $highlightColor;
 
@@ -139,6 +141,11 @@ section#work {
         background-color: $highlightColor;
       }
     }
+  }
+}
+section#contact {
+  i {
+    font-size: 1.8rem;
   }
 }
 .footer {

@@ -6,12 +6,13 @@ A personal portfolio and blog allows you to share your work and stories with pot
 
 ## Implementation goal
 ### Homepage
-- [ ] on hover, work grid has color overlay and white text
-  - currently grid is mostly default BS card
 - [ ] about section words
+- [ ] update Resume
 - [ ] contact section words
 - [ ] contact section
-
+- [ ] on hover, work grid has color overlay and white text
+  - currently grid is mostly default BS card
+- [ ] 
 ### Work exhibition page
 - [ ] write content and put in the page
 - [ ] design page

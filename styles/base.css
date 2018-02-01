@@ -77,7 +77,6 @@ div#topNavigation .container {
 div#topNavigation li a.nav-link {
   font-weight: bold;
   color: #333; }
-div#topNavigation li.active a.nav-link,
 div#topNavigation a.nav-link:hover {
   color: #2d0ee6; }
 
