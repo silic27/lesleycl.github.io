@@ -207,6 +207,9 @@ section#work {
 }
 section#contact {
   height: 90%;
+  .tooltip.bottom > .tooltip-arrow {
+      border-bottom: 3px solid $highlightColor;
+  }
   i {
     font-size: 1.8rem;
   }

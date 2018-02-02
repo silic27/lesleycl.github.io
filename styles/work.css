@@ -160,4 +160,26 @@ section#contact {
   width: 100%;
   margin-bottom: 20px; }
 
-/*# sourceMappingURL=base.css.map */
+.workContent .container {
+  padding-top: 13rem; }
+  .workContent .container h2 {
+    font-size: 1.5rem; }
+  .workContent .container h3 {
+    margin-top: 2rem; }
+  .workContent .container img {
+    width: 50%; }
+  .workContent .container .row img {
+    width: 100%; }
+  .workContent .container .footer i {
+    font-size: 1.5rem; }
+
+#styleup .carousel {
+  width: 100%;
+  height: 80vh;
+  overflow: scroll;
+  background-color: black; }
+#styleup .carousel-control-next,
+#styleup .carousel-control-prev {
+  background-color: grey; }
+
+/*# sourceMappingURL=work.css.map */

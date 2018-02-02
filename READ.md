@@ -33,6 +33,7 @@ A personal portfolio and blog allows you to share your work and stories with pot
 - [ ] design page
 
 #### spacemealbox
+- now temporarily linked to pinshape page.
 - [ ] write content and put in the page
 
 #### dianrong
