@@ -80,6 +80,8 @@ div#topNavigation nav {
   background-color: #ebebeb; }
 div#topNavigation .container {
   padding-top: 20px; }
+div#topNavigation button .navbar-toggler-icon {
+  color: #2d0ee6; }
 div#topNavigation li {
   margin: 15px; }
 div#topNavigation li:hover {

@@ -7,7 +7,8 @@ A personal portfolio and blog allows you to share your work and stories with pot
 ## Implementation goal
 ### Homepage
 #### Top navbar
-- [ ]hamburger menu under mobile
+- [x]hamburger menu under mobile
+- [ ] under mobile, top navbar toggled should be less opaque
 
 #### Landing screen
 - [ ]background: particle effect? photo?
@@ -31,13 +32,18 @@ A personal portfolio and blog allows you to share your work and stories with pot
 - [ ] each image is a modal can click open larger version
 #### StyleUp
 - [ ] design page
+- [ ] create journey map to better present
+- [ ] create different stakeholders' map
 
 #### spacemealbox
 - now temporarily linked to pinshape page.
 - [ ] write content and put in the page
 
 #### dianrong
-- [ ] write content and put in the page
+- [x] write content and put in the page
+
+### footer
+- [ ] Would words instead of icons be more clear to users?
 
 ## Framework / Tools used
 - SCSS
@@ -48,6 +54,8 @@ A personal portfolio and blog allows you to share your work and stories with pot
 - [ ] Fade-in & Fade-out between pages
 - [ ] "jump to top" button on longer pages
 - [ ] can I populate HTMLs based on one template for "works"?
+- [ ] insert GA tracking code: track main devices, location
+- [ ]
 
 Design pref:
 High contrast

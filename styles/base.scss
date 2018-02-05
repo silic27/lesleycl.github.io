@@ -115,6 +115,9 @@ div#topNavigation {
   .container {
     padding-top: 20px;
   }
+  button .navbar-toggler-icon {
+    color: $highlightColor;
+  }
   li {
     margin: 15px;
   }
