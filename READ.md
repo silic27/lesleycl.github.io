@@ -2,8 +2,6 @@
 Personal Portfolio for design projects' showcase.
 A personal portfolio and blog allows you to share your work and stories with potential employers. Writing project case studies help employers understand your development and implementation processes. Blogging helps you display your personality and insight.
 
-## User stories
-
 ## Implementation goal
 ### Homepage
 #### Top navbar
@@ -29,9 +27,12 @@ A personal portfolio and blog allows you to share your work and stories with pot
 
 ### Work Exhibition
 - [ ] each page link to "next" and "previous" project
-- [ ] each image is a modal can click open larger version
+  - Another way: have a toggle menu at the top or bottom showing other projects' title images  
+- [ ] **each image is a modal can click open larger version**
+
 #### StyleUp
-- [ ] design page
+- [x] design page
+- [x] write design process
 - [ ] create journey map to better present
 - [ ] create different stakeholders' map
 
@@ -55,10 +56,19 @@ A personal portfolio and blog allows you to share your work and stories with pot
 - [ ] "jump to top" button on longer pages
 - [ ] can I populate HTMLs based on one template for "works"?
 - [ ] insert GA tracking code: track main devices, location
-- [ ]
+- [ ] index page under tablet display is problematic
 
-Design pref:
-High contrast
+## Design Goal:
+- Purpose of the portfolio
+  - show design works using user-centered process
+- User-friendliness conerns
+  - Clean, straightforward
+- Add personal style
+  - High contrast
+  - Borders
+  - Types
+  - ...
+
 ```
 h1 {
     margin: .35em 0;
