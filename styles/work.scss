@@ -10,16 +10,24 @@
       margin-bottom: 1rem;
       font-size: 1.5rem;
     }
+    // single image in a line
     img {
       width: 50%;
     }
     img:hover {
       cursor: zoom-in;
     }
-    .row img {
+    // images in one line
+    .row .figure, .row img {
       width: 100%;
     }
     .imgRow {
+      text-align: center;
+    }
+    .fullwidth-photo {
+      width: 100%;
+    }
+    .figure-caption {
       text-align: center;
     }
     .footer {

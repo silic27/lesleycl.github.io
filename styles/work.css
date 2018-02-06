@@ -174,9 +174,13 @@ section#contact {
     width: 50%; }
   .workContent .container img:hover {
     cursor: zoom-in; }
-  .workContent .container .row img {
+  .workContent .container .row .figure, .workContent .container .row img {
     width: 100%; }
   .workContent .container .imgRow {
+    text-align: center; }
+  .workContent .container .fullwidth-photo {
+    width: 100%; }
+  .workContent .container .figure-caption {
     text-align: center; }
   .workContent .container .footer i {
     font-size: 1.5rem; }
