@@ -1,7 +1,10 @@
-## Use Case
+## Portfolio Website
 Personal Portfolio to showcase design projects' processes.
+Currently constantly upgrading and improving.
 
 ## Implementation goal
+**in bold**: next thing to work on
+
 ### Homepage
 #### Top navbar
 - [x]hamburger menu under mobile
@@ -27,7 +30,8 @@ Personal Portfolio to showcase design projects' processes.
 ### Work Exhibition
 - [ ] each page link to "next" and "previous" project
   - Another way: have a toggle menu at the top or bottom showing other projects' title images  
-- [ ] **some images worth showing should be a modal and can be clicked open to view larger version**
+- [x] some images worth showing should be a modal and can be clicked open to view larger version
+- [ ] carousel caption display is questionable
 
 #### StyleUp
 - [x] design page
@@ -37,7 +41,7 @@ Personal Portfolio to showcase design projects' processes.
 
 #### spacemealbox
 - now temporarily linked to pinshape page.
-- [ ] write content and put in the page
+- [ ] **write content and put in the page**
 
 #### dianrong
 - [x] write content and put in the page
@@ -68,17 +72,3 @@ Personal Portfolio to showcase design projects' processes.
   - Borders
   - Types
   - ...
-
-```
-h1 {
-    margin: .35em 0;
-    line-height: 1.25em;
-    font-family: Helvetica,Arial,sans-serif;
-    display: block;
-    font-weight: 900;
-    font-size: 2.125em;
-    font-weight: 800;
-}
-/*竟然就很好看？？！*/
-
-```
