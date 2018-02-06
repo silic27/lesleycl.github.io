@@ -214,8 +214,8 @@ section#contact {
     top: 0; }
     .workContent .container .carouselModal .carousel .carousel-caption:hover {
       background-color: #4040401a; }
-  .workContent .container .footer i {
-    font-size: 1.5rem; }
+  .workContent .container .footer .fa, .workContent .container .footer .fab, .workContent .container .footer .fal, .workContent .container .footer .far, .workContent .container .footer .fas {
+    font-size: 1.6rem; }
 
 #styleup .row img {
   text-align: center;
