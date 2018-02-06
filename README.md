@@ -27,7 +27,7 @@ Personal Portfolio to showcase design projects' processes.
 ### Work Exhibition
 - [ ] each page link to "next" and "previous" project
   - Another way: have a toggle menu at the top or bottom showing other projects' title images  
-- [ ] **each image is a modal can click open larger version**
+- [ ] **some images worth showing should be a modal and can be clicked open to view larger version**
 
 #### StyleUp
 - [x] design page
@@ -52,10 +52,11 @@ Personal Portfolio to showcase design projects' processes.
 ## Further questions
 - [ ] smooth scroll to next section
 - [ ] Fade-in & Fade-out between pages
-- [ ] "jump to top" button on longer pages
+- [ ] "jump to top" button on longer pages, especially work exhibitions
 - [ ] can I populate HTMLs based on one template for "works"?
 - [ ] insert GA tracking code: track main devices, location
 - [ ] index page under tablet display is problematic
+- [ ] code optimization: dynamically change modal, carousels should be auto-generated with available images in the directory (styleup page)
 
 ## Design Goal:
 - Purpose of the portfolio

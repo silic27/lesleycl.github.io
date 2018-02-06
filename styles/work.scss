@@ -50,19 +50,34 @@
          }
       }
     }
-    #carouselModal .carousel {
+    .carouselModal .carousel {
       .carousel-control-prev,
       .carousel-control-next {
         position: fixed;
         top: 50vh;
         bottom: unset;
+        width: 8%;
+        height: 10vh;
+        background-color: $highlightColor;
       }
       // .carousel-control-prev-icon {
-      //   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232d0ee6' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+      //   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgba()' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
       // }
       // .carousel-control-next-icon {
       //   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232d0ee6' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
       // }
+      .carousel-caption {
+        background-color: #40404080;
+        width: 100%;
+        position: fixed;
+        right: auto;
+        left: auto;
+        bottom: auto;
+        top: 0;
+        &:hover {
+          background-color: #4040401a;
+        }
+      }
     }
     .footer {
       i {
@@ -78,21 +93,6 @@
   .row img {
     text-align: center;
     width: 100%;
-  }
-  .carousel {
-    width:100%;
-    height:80vh;
-    overflow:scroll;
-    background-color: black;
-  }
-  .carousel-inner img {
-    // height:100vh;
-    // width:auto;
-  }
-  .carousel-control-next,
-  .carousel-control-prev {
-    background-color: grey;
-    // height:50px;
   }
 }
 
