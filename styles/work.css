@@ -173,7 +173,8 @@ section#contact {
   .workContent .container img {
     width: 50%; }
   .workContent .container img.fullscreenImg:hover {
-    cursor: zoom-in; }
+    cursor: zoom-in;
+    opacity: .8; }
   .workContent .container .row .figure, .workContent .container .row img {
     width: 100%; }
   .workContent .container .imgRow {
