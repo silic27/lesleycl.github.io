@@ -1,6 +1,5 @@
 ## Use Case
-Personal Portfolio for design projects' showcase.
-A personal portfolio and blog allows you to share your work and stories with potential employers. Writing project case studies help employers understand your development and implementation processes. Blogging helps you display your personality and insight.
+Personal Portfolio to showcase design projects' processes.
 
 ## Implementation goal
 ### Homepage

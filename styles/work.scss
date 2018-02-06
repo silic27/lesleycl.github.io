@@ -14,21 +14,55 @@
     img {
       width: 50%;
     }
-    img:hover {
+    // those that will activate a modal
+    img.fullscreenImg:hover {
       cursor: zoom-in;
     }
-    // images in one line
+    // images that already side by side
+    // with other images need 100% respect/space
     .row .figure, .row img {
       width: 100%;
     }
     .imgRow {
       text-align: center;
     }
+    // those that worth a complete line
     .fullwidth-photo {
       width: 100%;
     }
     .figure-caption {
       text-align: center;
+    }
+    // customized bootstrap modal
+    .modal .modal-dialog {
+      width: 100%;
+      max-width: 960px;
+      padding: 1rem;
+      .modal-content {
+         background: transparent;
+         min-height: 100%;
+         height: auto;
+         border-radius: 0;
+         border: none;
+         width: 100%;
+         img {
+           width:100%;
+         }
+      }
+    }
+    #carouselModal .carousel {
+      .carousel-control-prev,
+      .carousel-control-next {
+        position: fixed;
+        top: 50vh;
+        bottom: unset;
+      }
+      // .carousel-control-prev-icon {
+      //   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232d0ee6' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+      // }
+      // .carousel-control-next-icon {
+      //   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%232d0ee6' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+      // }
     }
     .footer {
       i {
