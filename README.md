@@ -15,7 +15,7 @@ Currently constantly upgrading and improving.
 - [ ]Styling words
 
 #### "work"
-- [ ] on hover, work grid has color overlay and white text
+- [ ] **on hover, work grid has color overlay and white text**
   - currently grid is mostly default BS card
 
 #### "about" (currently combined into landing screen)
