@@ -7,7 +7,7 @@ Currently constantly upgrading and improving.
 
 ### Homepage
 #### Top navbar
-- [x]hamburger menu under mobile
+- [x] hamburger menu under mobile
 - [ ] under mobile, top navbar toggled should be less opaque
 
 #### Landing screen
@@ -52,6 +52,7 @@ Currently constantly upgrading and improving.
 ## Framework / Tools used
 - SCSS
 - Bootstrap 4.0
+- Google Analytics
 
 ## Further questions
 - [ ] smooth scroll to next section
@@ -65,10 +66,19 @@ Currently constantly upgrading and improving.
 ## Design Goal:
 - Purpose of the portfolio
   - show design works using user-centered process
-- User-friendliness conerns
+- User-friendliness concerns
   - Clean, straightforward
 - Add personal style
   - High contrast
   - Borders
   - Types
   - ...
+
+## Tracking Goal:
+and how these tracking measures can affect design decisions
+- visitors' locations
+- which page would stay the longest
+- which button clicked most
+- which project clicked most
+- For those who read carefully (stayed on pages for more than 5 seconds),
+ how often would visitors open the modal through clicking on photos? (would they get the magnifying hint)
