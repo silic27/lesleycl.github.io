@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'tex_gyre_adventorbold';
+  src: url("../assets/fonts/texgyreadventor-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'tex_gyre_adventorregular';
+  src: url("../assets/fonts/texgyreadventor-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  font-family: "tex_gyre_adventorbold", "ITC AvantGarde Gothic", Futura-Medium, sans-serif;
+  color: #333; }
+
+a:hover {
+  color: #2d0ee6; }
+
+p {
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 1rem; }
+
+body,
+html {
+  height: 100%;
+  font-size: 15px;
+  background-color: #ebebeb; }
+
+section {
+  height: 100%; }
+  section .container {
+    padding-top: 12rem; }
+
+.btn {
+  border-color: #2d0ee6;
+  color: #2d0ee6;
+  border-radius: 0; }
+  .btn:hover {
+    background-color: #2d0ee6;
+    color: white; }
+
+#border-left,
+#border-top,
+#border-right,
+#border-bottom {
+  position: fixed;
+  background-color: #2d0ee6;
+  z-index: 9999; }
+
+#border-left {
+  width: 15px;
+  height: 100%;
+  top: 0;
+  left: 0; }
+
+#border-right {
+  width: 15px;
+  height: 100%;
+  top: 0;
+  right: 0; }
+
+#border-top {
+  width: 100%;
+  height: 15px;
+  top: 0;
+  left: 0; }
+
+#border-bottom {
+  width: 100%;
+  height: 15px;
+  bottom: 0;
+  left: 0; }
+
+div#topNavigation nav {
+  background-color: #ebebeb; }
+div#topNavigation .container {
+  padding-top: 20px; }
+div#topNavigation button .navbar-toggler-icon {
+  color: #2d0ee6; }
+div#topNavigation li {
+  margin: 15px; }
+div#topNavigation li:hover {
+  margin-bottom: -2px; }
+div#topNavigation li a.nav-link {
+  font-weight: bold;
+  color: #333;
+  padding-left: 0;
+  padding-right: 0; }
+div#topNavigation a.nav-link:hover {
+  color: #2d0ee6;
+  border-bottom: 5px solid #2d0ee6; }
+
+section#home .container {
+  padding-top: 25%; }
+section#home h1 {
+  font-size: 5.5rem; }
+
+section#work .workCard .overlayContainer {
+  position: relative; }
+  section#work .workCard .overlayContainer img {
+    width: 100%;
+    height: auto;
+    display: block; }
+  section#work .workCard .overlayContainer .overlay {
+    text-align: center;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    transition: .5s ease; }
+    section#work .workCard .overlayContainer .overlay .overlayTexts {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      width: 80%; }
+    section#work .workCard .overlayContainer .overlay h4 {
+      font-size: 2rem; }
+    section#work .workCard .overlayContainer .overlay hr {
+      height: 3px;
+      color: #2d0ee6;
+      width: 25%;
+      background-color: #2d0ee6; }
+    section#work .workCard .overlayContainer .overlay p {
+      height: 3rem; }
+section#work .workCard:hover {
+  cursor: pointer; }
+  section#work .workCard:hover .overlay {
+    opacity: 1; }
+section#work .workCard h5 {
+  padding: .5rem;
+  padding-bottom: auto; }
+
+section#contact {
+  height: 90%; }
+  section#contact .tooltip.bottom > .tooltip-arrow {
+    border-bottom: 3px solid #2d0ee6; }
+  section#contact i {
+    font-size: 1.8rem; }
+
+.footer {
+  width: 100%;
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=base_1.css.map */
