@@ -84,6 +84,9 @@
       .fa, .fab, .fal, .far, .fas {
         font-size: 1.6rem;
       }
+      .container {
+        padding-bottom: 0;
+      }
     }
 
   }
@@ -106,7 +109,7 @@
 }
 
 #spacemealbox {
-  a {
-
+  p a {
+    color: $highlightColor;
   }
 }

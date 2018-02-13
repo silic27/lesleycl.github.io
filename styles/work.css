@@ -208,9 +208,14 @@ section#contact i {
       background-color: #4040401a; }
   .workContent .container .footer .fa, .workContent .container .footer .fab, .workContent .container .footer .fal, .workContent .container .footer .far, .workContent .container .footer .fas {
     font-size: 1.6rem; }
+  .workContent .container .footer .container {
+    padding-bottom: 0; }
 
 #styleup .row img {
   text-align: center;
   width: 100%; }
+
+#spacemealbox p a {
+  color: #2d0ee6; }
 
 /*# sourceMappingURL=work.css.map */
