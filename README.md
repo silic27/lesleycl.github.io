@@ -25,6 +25,7 @@ Currently constantly upgrading and improving.
 - [x] contact section words
 - [x] contact section
 - [ ] fill-in form to contact? more interactive? more design?
+      - 
 
 ### Work Exhibition
 - [ ] each page link to "next" and "previous" project
@@ -42,8 +43,12 @@ Currently constantly upgrading and improving.
 - now temporarily linked to pinshape page.
 - [ ] **write content and put in the page**
 
-#### dianrong
+#### Ronglc
 - [x] write content and put in the page
+
+#### Dianrong caifu
+- [ ] images preparation
+- [ ] write content and put in page
 
 ### footer
 - [ ] Would words instead of icons be more clear to users?
