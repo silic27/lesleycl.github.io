@@ -101,15 +101,20 @@
 }
 
 #ronglc {
-  $color1: rgba(83, 180, 249, 1);
-  $color2: rgba(59, 131, 204, 1);
-  $color3: rgba(245, 139, 1, 1);
-  $color4: rgba(247, 177, 31, 1);
-  $color5: rgba(255, 255, 255, 1);
+  // $color1: rgba(83, 180, 249, 1);
+  // $color2: rgba(59, 131, 204, 1);
+  // $color3: rgba(245, 139, 1, 1);
+  // $color4: rgba(247, 177, 31, 1);
+  // $color5: rgba(255, 255, 255, 1);
 }
 
 #spacemealbox {
   p a {
     color: $highlightColor;
+    font-family: $fontStack2;
+  }
+  ul li,
+  ol li {
+    font-family: $fontStack2;
   }
 }

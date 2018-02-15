@@ -14,8 +14,7 @@ h2,
 h3,
 h4,
 h5,
-a,
-ul li {
+a {
   font-family: "tex_gyre_adventorbold", "ITC AvantGarde Gothic", Futura-Medium, sans-serif;
   color: #333; }
 

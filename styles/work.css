@@ -14,8 +14,7 @@ h2,
 h3,
 h4,
 h5,
-a,
-ul li {
+a {
   font-family: "tex_gyre_adventorbold", "ITC AvantGarde Gothic", Futura-Medium, sans-serif;
   color: #333; }
 
@@ -217,6 +216,10 @@ section#contact i {
   width: 100%; }
 
 #spacemealbox p a {
-  color: #2d0ee6; }
+  color: #2d0ee6;
+  font-family: "Roboto", Helvetica, sans-serif; }
+#spacemealbox ul li,
+#spacemealbox ol li {
+  font-family: "Roboto", Helvetica, sans-serif; }
 
 /*# sourceMappingURL=work.css.map */
