@@ -190,7 +190,7 @@ section#work {
         }
       }
     }
-    &:hover {
+    &:hover, &:active {
       cursor:pointer;
       .overlay {
         opacity: 1;
