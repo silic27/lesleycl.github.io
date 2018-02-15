@@ -25,13 +25,13 @@ Currently constantly upgrading and improving.
 - [x] contact section words
 - [x] contact section
 - [ ] fill-in form to contact? more interactive? more design?
-      - 
 
 ### Work Exhibition
 - [ ] each page link to "next" and "previous" project
   - Another way: have a toggle menu at the top or bottom showing other projects' title images  
 - [x] some images worth showing should be a modal and can be clicked open to view larger version
 - [ ] carousel caption display is questionable
+- [ ] **Needs proofreading on each page description**
 
 #### StyleUp
 - [x] design page
@@ -40,8 +40,8 @@ Currently constantly upgrading and improving.
 - [ ] create different stakeholders' map
 
 #### spacemealbox
-- now temporarily linked to pinshape page.
-- [ ] **write content and put in the page**
+- [x] write content and put in the page
+- [ ] is it possible to show stl file interactively?
 
 #### Ronglc
 - [x] write content and put in the page
@@ -66,6 +66,7 @@ Currently constantly upgrading and improving.
 - [ ] insert GA tracking code: track main devices, location
 - [ ] index page under tablet display is problematic
 - [ ] code optimization: dynamically change modal, carousels should be auto-generated with available images in the directory (styleup page)
+- [ ] add a link to blog?  
 
 ## Design Goal:
 - Purpose of the portfolio
