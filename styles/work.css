@@ -135,9 +135,9 @@ section#work .workCard {
         background-color: #2d0ee6; }
       section#work .workCard .overlayContainer .overlay p {
         height: 3rem; }
-  section#work .workCard:hover, section#work .workCard:active {
+  section#work .workCard:hover, section#work .workCard:active, section#work .workCard:focus {
     cursor: pointer; }
-    section#work .workCard:hover .overlay, section#work .workCard:active .overlay {
+    section#work .workCard:hover .overlay, section#work .workCard:active .overlay, section#work .workCard:focus .overlay {
       opacity: 1; }
   section#work .workCard h5 {
     padding: .5rem;
