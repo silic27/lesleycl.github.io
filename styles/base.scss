@@ -17,7 +17,7 @@ $fontStack1: 'tex_gyre_adventorbold', "ITC AvantGarde Gothic", Futura-Medium, sa
 $fontStack2: 'Roboto', Helvetica, sans-serif;
 $highlightColor: #2d0ee6;  // indigo-blue
 $complementColor: #FFE010;
-$backgroundColor: #ebebeb;
+$backgroundColor: #f2f2f2;
 $mainColor1: #333;
 
 $blockMargin: 15px;
@@ -42,6 +42,10 @@ h5,
 a {
   font-family: $fontStack1;
   color: $mainColor1;
+}
+
+:focus {
+  outline-color: $highlightColor;
 }
 
 a:hover {
@@ -158,6 +162,9 @@ section#work {
         height: auto;
         display: block;
       }
+      a.divLink {
+        width: 100%;
+      }
       .overlay {
         text-align: center;
         opacity: 0;
@@ -170,6 +177,15 @@ section#work {
         height: 100%;
         width: 100%;
         transition: .5s ease;
+        a span {
+          position:absolute;
+          width:100%;
+          height:100%;
+          top:0;
+          left: 0;
+          z-index: 1;
+          background-image: url('empty.gif');
+        }
         .overlayTexts {
           position: absolute;
           top: 50%; left: 50%; transform: translate(-50%, -50%);
@@ -202,6 +218,9 @@ section#work {
     }
     .d-flex .p-2 {
       padding-top: 0 !important;
+    }
+    h5 a:hover {
+      text-decoration: none;
     }
   }
 }
