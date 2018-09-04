@@ -2,71 +2,6 @@
 Personal Portfolio to showcase design projects' processes.
 Currently constantly upgrading and improving.
 
-## Implementation goal
-**in bold**: next thing to work on
-
-### Homepage
-#### Top navbar
-- [x] hamburger menu under mobile
-- [ ] under mobile, top navbar toggled should be less opaque
-
-#### Landing screen
-- [ ]background: particle effect? photo?
-- [ ]Styling words
-
-#### "work"
-- [x] on hover, work grid has color overlay and white text
-
-#### "about" (currently combined into landing screen)
-- [ ] "about" section words
-- [x] update Resume
-
-#### "contact"
-- [x] contact section words
-- [x] contact section
-- [ ] fill-in form to contact? more interactive? more design?
-
-### Work Exhibition
-- [ ] each page link to "next" and "previous" project
-  - Another way: have a toggle menu at the top or bottom showing other projects' title images  
-- [x] some images worth showing should be a modal and can be clicked open to view larger version
-- [ ] carousel caption display is questionable
-- [ ] **Needs proofreading on each page description**
-
-#### StyleUp
-- [x] design page
-- [x] write design process
-- [ ] create journey map to better present
-- [ ] create different stakeholders' map
-
-#### spacemealbox
-- [x] write content and put in the page
-- [ ] is it possible to show stl file interactively?
-
-#### Ronglc
-- [x] write content and put in the page
-
-#### Dianrong caifu
-- [ ] images preparation
-- [ ] write content and put in page
-
-### footer
-- [ ] Would words instead of icons be more clear to users?
-
-## Framework / Tools used
-- SCSS
-- Bootstrap 4.0
-- Google Analytics
-
-## Further questions
-- [ ] smooth scroll to next section
-- [ ] Fade-in & Fade-out between pages
-- [ ] "jump to top" button on longer pages, especially work exhibitions
-- [ ] can I populate HTMLs based on one template for "works"?
-- [ ] insert GA tracking code: track main devices, location
-- [ ] index page under tablet display is problematic
-- [ ] code optimization: dynamically change modal, carousels should be auto-generated with available images in the directory (styleup page)
-- [ ] add a link to blog?  
 
 ## Design Goal:
 - Purpose of the portfolio
@@ -87,3 +22,40 @@ and how these tracking measures can affect design decisions
 - which project clicked most
 - For those who read carefully (stayed on pages for more than 5 seconds),
  how often would visitors open the modal through clicking on photos? (would they get the magnifying hint)
+
+
+## Add projects during this semester
+1. interior robotics - prototype, research, paper
+2. wearables for seniors - prototype
+3. new interactive technology for financial product - case study / prototype
+4. designs for social impact (design, sketch, proposal)
+
+
+Across the site:
+- Navigation bar (top)
+- Footer (css different on each page/section)
+
+Homepage
+- Navigation bar
+- blocks of works
+- Footer
+
+Work page
+- top large image
+- title
+-
+
+Model:
+- title
+- top image
+-
+
+Contact
+
+
+
+```
+View - what's in actual html.
+Model - data model
+Viewmodel/Vue - connect the two, what view use which data model
+```
