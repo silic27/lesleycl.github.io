@@ -24,27 +24,28 @@
 
 </head>
 
-<!-- 38, 40 upkey downkey -->
 <body>
-  <!-- <div id="border-top"></div>
+  <div id="border-top"></div>
   <div id="border-right"></div>
   <div id="border-left"></div>
-  <div id="border-bottom"></div> -->
+  <div id="border-bottom"></div>
+
   <div id="topNavigation">
     <nav class="navbar fixed-top navbar-expand-sm">
       <div class="container">
-        <a class="navbar-brand" href="#home">
-          <img src="assets/icons.ico/ms-icon-144x144.png" width="50" height="50" alt="">
+        <a class="navbar-brand" href="#">
+          LI CHAI
+          <!-- <img src="assets/icons.ico/try.png" width="60" height="60" alt=""> -->
+          <!-- <img src="assets/icons.ico/ms-icon-144x144.png" width="50" height="50" alt=""> -->
+          <span class="slider"></span> 
         </a>
+         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"><i class="fa fa-bars fa-1x"></i></span>
         </button>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav nav" >
-            <li class="nav-item">
-              <a class="nav-link" href="#home">Home</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="#work">Work</a>
             </li>
@@ -63,12 +64,17 @@
       </div>
     </nav>
   </div>
+
   <section id="home" name="home">
-    <div class="container">
-      <h1>Hello! I'm Li Chai </h1> 
-      <h2>Product Designer / Front-end Developer <br>
-        Currently pursuing Master in Information Science at Cornell University,
-      focusing on creating and build easy-to-use and delightful products and experiences.</h2>
+    <div class="container" id="ronglc">
+      <h1>Hi, I'm Li Chai. </h1>
+      <h2>I'm a product designer and a front-end developer. 
+      Currently pursuing Master in Information Science at Cornell 
+      University. 
+      I'm curious and passionate about designing delightful products that truly make people's lives better.</h2> 
+      <!-- <h2>Product Designer / Front-end Developer <br>
+        Currently pursuing Master in Information Science at Cornell University <br>
+        Focus on building </h2> -->
       <br><br><br>
       <a href="#work" id="arrowContainer"><span></span></a>
     </div>
@@ -79,23 +85,65 @@
         <div class="col-12 col-md-6 col-lg-6">
             <div class="workCard">
               <div class="overlayContainer">
-                <img src="assets/imgs/teamup.png" alt="">
+                <img src="assets/imgs/TeamUp/indexcard.png" alt="">
                 <div class="overlay">
-                  <a href="#work"><span></span></a>
+                  <a href="works/teamup.html"><span></span></a>
                   <div class="overlayTexts">
                     <h4>TeamUp!</h4>
                     <hr>
-                    <p>Mobile app that helps students form project teams</p>
+                    <p>Mobile app that helps students gain practical experience through
+                       forming project teams</p>
+                    <!-- <p>USER RESEARCH, UX/UI DESIGN, VISUAL DESIGN</p> -->
                   </div>
                 </div>
               </div>
-              <h5>TeamUp! (Coming soon)</h5>
+              <h5>TeamUp!</h5>
               <div class="d-flex">
-                <div class="mr-auto p-2">User Research, UX/UI Design, Visual Design</div>
-                <div class="p-2">Aug - Nov 2018</div>
+                <div class="mr-auto p-2">USER RESEARCH, UX/UI DESIGN, VISUAL DESIGN</div>
+                <!-- <div class="p-2">Aug - Nov 2018</div> -->
               </div>
             </div>
           </div>
+          <!-- <div class="col-12 col-md-6 col-lg-6">
+              <div class="workCard">
+                <div class="overlayContainer">
+                  <img src="assets/imgs/teamup.png" alt="">
+                  <div class="overlay">
+                    <a href="works/teamup.html"><span></span></a>
+                    <div class="overlayTexts">
+                      <h4>TeamUp!</h4>
+                      <hr>
+                      <p>Mobile app that helps students form project teams</p>
+                    </div>
+                  </div>
+                </div>
+                <h5>TeamUp!</h5>
+                <div class="d-flex">
+                  <div class="mr-auto p-2">User Research, UX/UI Design, Visual Design</div>
+                  <div class="p-2">Aug - Nov 2018</div>
+                </div>
+              </div>
+            </div> -->
+            <!-- <div class="col-12 col-md-6 col-lg-6">
+                <div class="workCard">
+                  <div class="overlayContainer">
+                    <img src="assets/imgs/teamup.png" alt="">
+                    <div class="overlay">
+                      <a href="works/teamup.html"><span></span></a>
+                      <div class="overlayTexts">
+                        <h4>TeamUp!</h4>
+                        <hr>
+                        <p>Mobile app that helps students form project teams</p>
+                      </div>
+                    </div>
+                  </div>
+                  <h5>TeamUp!</h5>
+                  <div class="d-flex">
+                    <div class="mr-auto p-2">User Research, UX/UI Design, Visual Design</div>
+                    <div class="p-2">Aug - Nov 2018</div>
+                  </div>
+                </div>
+              </div> -->
         <div class="col-12 col-md-6 col-lg-6">
           <div class="workCard">
             <div class="overlayContainer">
@@ -105,14 +153,14 @@
                 <div class="overlayTexts">
                   <h4>StyleUp</h4>
                   <hr>
-                  <p>Salon Appointment-making Website</p>
+                  <p>An appointment-making website that connects customers and salons.</p>
                 </div>
               </div>
             </div>
             <h5>StyleUp</h5>
             <div class="d-flex">
-              <div class="mr-auto p-2">UI/UX</div>
-              <div class="p-2">Aug 2016</div>
+              <div class="mr-auto p-2">UI/UX DESIGN</div>
+              <!-- <div class="p-2">Aug 2016</div> -->
             </div>
           </div>
         </div>
@@ -131,8 +179,8 @@
             </div>
             <h5>Space Mealbox</h5>
             <div class="d-flex">
-              <div class="mr-auto p-2">Product Prototyping</div>
-              <div class="p-2">Jan 2017</div>
+              <div class="mr-auto p-2">PROTOTYPING, 3D PRINTING</div>
+              <!-- <div class="p-2">Jan 2017</div> -->
             </div>
           </div>
         </div>
@@ -143,16 +191,16 @@
               <div class="overlay">
                 <a href="works/ronglc.html"><span></span></a>
                 <div class="overlayTexts">
-                  <h4>Ronglc</h4>
+                  <h4>Dianrong UI Design Intern</h4>
                   <hr>
                   <p>Website Visual Design</p>
                 </div>
               </div>
             </div>
-            <h5>Ronglc</h5>
+            <h5>Dianrong UI Design Intern</h5>
             <div class="d-flex">
-              <div class="mr-auto p-2">Visual Design, UI</div>
-              <div class="p-2">Nov 2015</div>
+              <div class="mr-auto p-2">UI DESIGN, VISUAL DESIGN, BRANDING</div>
+              <!-- <div class="p-2">Nov 2015</div> -->
             </div>
           </div>
         </div>

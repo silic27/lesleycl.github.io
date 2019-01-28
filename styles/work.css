@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond:500,700");
-h1,
 h4,
 h5 {
-  font-family: "EB Garamond", "Avenir Next LT Pro", serif, Futura-Medium, sans-serif;
+  font-family: "Avenir Next LT Pro", "EB Garamond", serif, Futura-Medium, sans-serif;
   color: #333; }
 
+h1,
 h2,
 h3,
 a {
@@ -13,10 +13,10 @@ a {
   color: #333; }
 
 :focus {
-  outline-color: #2d0ee6; }
+  outline-color: #002FA7; }
 
 a:hover {
-  color: #2d0ee6; }
+  color: #002FA7; }
 
 p {
   font-family: "Roboto", Helvetica, sans-serif;
@@ -33,11 +33,11 @@ section .container {
   padding-bottom: 22vh; }
 
 .btn {
-  border-color: #2d0ee6;
-  color: #2d0ee6;
+  border-color: #002FA7;
+  color: #002FA7;
   border-radius: 0; }
   .btn:hover {
-    background-color: #2d0ee6;
+    background-color: #002FA7;
     color: white; }
 
 #border-left,
@@ -45,30 +45,30 @@ section .container {
 #border-right,
 #border-bottom {
   position: fixed;
-  background-color: #2d0ee6;
+  background-color: #002FA7;
   z-index: 9999; }
 
 #border-left {
-  width: 15px;
+  width: 10px;
   height: 100%;
   top: 0;
   left: 0; }
 
 #border-right {
-  width: 15px;
+  width: 10px;
   height: 100%;
   top: 0;
   right: 0; }
 
 #border-top {
   width: 100%;
-  height: 15px;
+  height: 10px;
   top: 0;
   left: 0; }
 
 #border-bottom {
   width: 100%;
-  height: 15px;
+  height: 10px;
   bottom: 0;
   left: 0; }
 
@@ -76,30 +76,53 @@ div#topNavigation nav {
   background-color: white; }
 div#topNavigation .container {
   padding-top: 20px; }
+  div#topNavigation .container .navbar-brand {
+    letter-spacing: 0.07em;
+    font-weight: 700;
+    font-family: 'Avenir Next LT Pro'; }
+    div#topNavigation .container .navbar-brand .slider {
+      position: relative;
+      display: block;
+      height: 5px;
+      background-color: #F5E3C9;
+      width: 0%;
+      transition: width 0.7s ease; }
+    div#topNavigation .container .navbar-brand:hover .slider {
+      width: 100%; }
 div#topNavigation button .navbar-toggler-icon {
-  color: #2d0ee6; }
+  color: #002FA7; }
 div#topNavigation li {
   margin: 15px; }
 div#topNavigation li:hover {
   margin-bottom: -2px; }
 div#topNavigation li a.nav-link {
-  font-weight: bold;
   color: #333;
   padding-left: 0;
-  padding-right: 0; }
+  padding-right: 0;
+  font-size: 14px; }
 div#topNavigation a.nav-link:hover {
-  color: #2d0ee6;
-  border-bottom: 5px solid #2d0ee6; }
+  color: #002FA7;
+  border-bottom: 5px solid #F5E3C9; }
 
 section#home .container {
-  padding-top: 25%; }
+  padding-top: 15%;
+  max-width: 60%; }
 section#home h1 {
-  font-size: 5.5rem;
-  text-align: center; }
+  font-family: 'Avenir Next LT Pro', serif, Futura-Medium, sans-serif;
+  font-size: 2rem;
+  max-width: 703px;
+  margin: 0 auto;
+  line-height: 3rem;
+  font-weight: 500;
+  border-bottom: 5px solid #F5E3C9;
+  display: -webkit-inline-box; }
 section#home h2 {
-  font-size: 1.2rem;
-  max-width: 583px;
-  margin: 0 auto; }
+  font-size: 1.3rem;
+  max-width: 703px;
+  margin: 0 auto;
+  line-height: 2.0rem;
+  padding-top: 1rem;
+  display: table-cell; }
 section#home a#arrowContainer {
   position: relative;
   left: 50%;
@@ -119,8 +142,8 @@ section#home a#arrowContainer {
     width: 24px;
     height: 24px;
     margin-left: -12px;
-    border-left: 1px solid #2d0ee6;
-    border-bottom: 1px solid #2d0ee6;
+    border-left: 1px solid #002FA7;
+    border-bottom: 1px solid #002FA7;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     -webkit-animation: sdb05 1.5s infinite;
@@ -157,7 +180,7 @@ section#work .workCard {
     section#work .workCard .overlayContainer .overlay {
       text-align: center;
       opacity: 0;
-      background-color: rgba(255, 255, 255, 0.9);
+      background-color: white;
       position: absolute;
       top: 0;
       bottom: 0;
@@ -185,11 +208,12 @@ section#work .workCard {
         font-size: 2rem; }
       section#work .workCard .overlayContainer .overlay hr {
         height: 3px;
-        color: #2d0ee6;
+        color: #F5E3C9;
         width: 25%;
-        background-color: #2d0ee6; }
+        background-color: #F5E3C9; }
       section#work .workCard .overlayContainer .overlay p {
-        height: 3rem; }
+        max-width: 75%;
+        margin: 0 auto; }
   section#work .workCard:hover {
     cursor: pointer; }
     section#work .workCard:hover .overlay {
@@ -198,29 +222,93 @@ section#work .workCard {
     padding: .5rem;
     padding-bottom: 0; }
   section#work .workCard .d-flex .p-2 {
-    padding-top: 0 !important; }
+    padding-top: 0 !important;
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 14px;
+    color: #878787; }
   section#work .workCard h5 a:hover {
     text-decoration: none; }
 
 section#contact {
   text-align: center; }
   section#contact .tooltip.bottom > .tooltip-arrow {
-    border-bottom: 3px solid #2d0ee6; }
+    border-bottom: 3px solid #002FA7; }
+  section#contact a {
+    margin: 5px; }
+    section#contact a:hover {
+      color: #002FA7;
+      border-bottom: 5px solid #F5E3C9;
+      text-decoration: none; }
 
 .footer {
   width: 100%;
   margin-bottom: 20px; }
 
+div#topNavigation .page-progress {
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #002FA7; }
+div#topNavigation nav {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px; }
+
+.workContent .coverphoto {
+  height: 600px;
+  padding-top: 500px;
+  background-position: 0px 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll; }
 .workContent .container {
-  padding-top: 13rem; }
+  padding-top: 3rem;
+  max-width: 870px; }
+  .workContent .container ul.shortInfo {
+    max-width: 100%;
+    background-color: #f4f4f4;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 20%;
+    padding-right: 20%; }
+    .workContent .container ul.shortInfo li {
+      list-style-type: none;
+      line-height: 30px; }
+  .workContent .container h1 {
+    font-family: "Avenir Next LT Pro", "EB Garamond", serif, Futura-Medium, sans-serif;
+    font-weight: 600;
+    margin-bottom: 3rem; }
   .workContent .container h2 {
+    font-family: "Avenir Next LT Pro", "EB Garamond", serif, Futura-Medium, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     font-size: 1.5rem; }
   .workContent .container h3 {
+    font-family: "Avenir Next LT Pro", "EB Garamond", serif, Futura-Medium, sans-serif;
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 1.5rem; }
+  .workContent .container h4 {
+    font-size: 1rem;
+    color: #878787; }
+  .workContent .container p {
+    line-height: 1.8rem; }
+  .workContent .container a {
+    color: #002FA7; }
+    .workContent .container a:hover {
+      color: #002FA7;
+      border-bottom: 5px solid #F5E3C9;
+      text-decoration: none; }
+  .workContent .container a.button {
+    color: #002FA7;
+    border: none; }
+    .workContent .container a.button:hover {
+      border-bottom: 5px solid #F5E3C9;
+      color: #002FA7; }
   .workContent .container img {
-    width: 50%; }
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
   .workContent .container img.fullscreenImg:hover {
     cursor: zoom-in;
     opacity: .8; }
@@ -252,7 +340,7 @@ section#contact {
     bottom: unset;
     width: 8%;
     height: 10vh;
-    background-color: #2d0ee6; }
+    background-color: #002FA7; }
   .workContent .container .carouselModal .carousel .carousel-caption {
     background-color: #40404080;
     width: 100%;
@@ -267,13 +355,26 @@ section#contact {
     font-size: 1.6rem; }
   .workContent .container .footer .container {
     padding-bottom: 0; }
+    .workContent .container .footer .container .float-right a {
+      margin: 5px;
+      color: #333; }
 
+#teamup .coverphoto {
+  background-image: url(../assets/imgs/TeamUp/coverphoto.png); }
+
+#styleup .container {
+  padding-top: 11rem; }
 #styleup .row img {
   text-align: center;
   width: 100%; }
 
+#ronglc .container {
+  padding-top: 11rem; }
+
+#spacemealbox .container {
+  padding-top: 11rem; }
 #spacemealbox p a {
-  color: #2d0ee6;
+  color: #002FA7;
   font-family: "Roboto", Helvetica, sans-serif; }
 #spacemealbox ul li,
 #spacemealbox ol li {

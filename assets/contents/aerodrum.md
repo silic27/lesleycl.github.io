@@ -8,9 +8,16 @@ Tools: Arduino, Processing
 Role: Developer, Researcher
 ---
 
+# AeroDrum
+
+## OVERVIEW
+Aerodrum is a interactive wearable prototype that allows people to play drum without a complete set of drums. 
+
 ![Aerodrum-header](./imgs/aerodrum/header.jpg)
-# {{ $page.frontmatter.title }}
-**Tool: Arduino IDE (C++), Processing (JAVA)**
+<!-- # {{ $page.frontmatter.title }} -->
+- Programming: Arduino IDE (C++), Processing (JAVA)
+- My Role: Developer, Designer
+
 
 In this project, I used 
 
