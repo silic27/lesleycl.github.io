@@ -27,7 +27,7 @@ div#topNavigation  {
   }
   .container {
     padding-top: 3rem;
-    max-width: 870px;
+    max-width: 740px;
 
     ul.shortInfo {
       max-width: 100%;
@@ -160,22 +160,22 @@ div#topNavigation  {
         }
       }
     }
-    .footer {
-      .fa, .fab, .fal, .far, .fas {
-        font-size: 1.6rem;
-      }
-      .container {
-        padding-bottom: 0;
-        
-        .float-right a {
-          margin: 5px;
-          color: $mainColor1;
-        }
-      }
-    }
-
   }
 }
+.footer {
+  .fa, .fab, .fal, .far, .fas {
+    font-size: 1.6rem;
+  }
+  .container {
+    padding-bottom: 0;
+    
+    .float-right a {
+      margin: 5px;
+      color: $mainColor1;
+    }
+  }
+}
+
 
 // page-specific css
 #teamup {

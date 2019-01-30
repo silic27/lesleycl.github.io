@@ -263,7 +263,7 @@ div#topNavigation nav {
   background-attachment: scroll; }
 .workContent .container {
   padding-top: 3rem;
-  max-width: 870px; }
+  max-width: 740px; }
   .workContent .container ul.shortInfo {
     max-width: 100%;
     background-color: #f4f4f4;
@@ -351,13 +351,14 @@ div#topNavigation nav {
     top: 0; }
     .workContent .container .carouselModal .carousel .carousel-caption:hover {
       background-color: #4040401a; }
-  .workContent .container .footer .fa, .workContent .container .footer .fab, .workContent .container .footer .fal, .workContent .container .footer .far, .workContent .container .footer .fas {
-    font-size: 1.6rem; }
-  .workContent .container .footer .container {
-    padding-bottom: 0; }
-    .workContent .container .footer .container .float-right a {
-      margin: 5px;
-      color: #333; }
+
+.footer .fa, .footer .fab, .footer .fal, .footer .far, .footer .fas {
+  font-size: 1.6rem; }
+.footer .container {
+  padding-bottom: 0; }
+  .footer .container .float-right a {
+    margin: 5px;
+    color: #333; }
 
 #teamup .coverphoto {
   background-image: url(../assets/imgs/TeamUp/coverphoto.png); }
