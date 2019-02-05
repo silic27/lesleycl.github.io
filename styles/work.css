@@ -246,11 +246,15 @@ section#contact {
 
 div#topNavigation .page-progress {
   width: 100%;
-  height: 4px;
+  height: 2px;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #002FA7; }
+  background: #f4f4f4; }
+div#topNavigation #progressBar {
+  height: 2px;
+  background: #878787;
+  width: 0%; }
 div#topNavigation nav {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px; }
 

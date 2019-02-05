@@ -4,11 +4,16 @@
 div#topNavigation  {
   .page-progress {
     width: 100%;
-    height: 4px;
+    height: 2px;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: $highlightColor;
+    background: $lighterGrey;
+  }
+  #progressBar {
+    height: 2px;
+    background: $lightGrey;
+    width: 0%;
   }
   nav {
     box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
