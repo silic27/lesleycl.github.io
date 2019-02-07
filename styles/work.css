@@ -205,12 +205,12 @@ section#work .workCard {
         left: 50%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
-        width: 80%; }
+        width: 98%; }
       section#work .workCard .overlayContainer .overlay h4 {
         font-size: 2rem; }
       section#work .workCard .overlayContainer .overlay hr {
         height: 3px;
-        color: #F5E3C9;
+        border-color: #F5E3C9;
         width: 25%;
         background-color: #F5E3C9; }
       section#work .workCard .overlayContainer .overlay p {
@@ -255,7 +255,7 @@ div#topNavigation .page-progress {
   background: #f4f4f4; }
 div#topNavigation #progressBar {
   height: 2px;
-  background: #878787;
+  background: #002FA7;
   width: 0%; }
 div#topNavigation nav {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px; }
@@ -270,6 +270,10 @@ div#topNavigation nav {
 .workContent .container {
   padding-top: 3rem;
   max-width: 740px; }
+  .workContent .container .bookmark {
+    position: absolute;
+    left: 40px;
+    top: 1100px; }
   .workContent .container ul.shortInfo {
     max-width: 100%;
     background-color: #f4f4f4;
@@ -364,7 +368,13 @@ div#topNavigation nav {
   padding-bottom: 0; }
   .footer .container .float-right a {
     margin: 5px;
-    color: #333; }
+    color: #333;
+    font-size: 14px; }
+    .footer .container .float-right a:hover {
+      color: #002FA7;
+      border-bottom: 5px solid #F5E3C9;
+      text-decoration: none;
+      padding-bottom: 7.5px; }
 
 #teamup .coverphoto {
   background-image: url(../assets/imgs/TeamUp/coverphoto.png); }

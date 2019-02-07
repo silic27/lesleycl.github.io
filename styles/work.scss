@@ -12,7 +12,7 @@ div#topNavigation  {
   }
   #progressBar {
     height: 2px;
-    background: $lightGrey;
+    background: $highlightColor;
     width: 0%;
   }
   nav {
@@ -34,6 +34,12 @@ div#topNavigation  {
     padding-top: 3rem;
     max-width: 740px;
 
+    .bookmark {
+      position: absolute;
+      left: 40px;
+      top: 1100px;
+    }
+    
     ul.shortInfo {
       max-width: 100%;
       background-color: $lighterGrey;
@@ -177,6 +183,14 @@ div#topNavigation  {
     .float-right a {
       margin: 5px;
       color: $mainColor1;
+      font-size: 14px;
+
+      &:hover {
+        color: $highlightColor;
+        border-bottom: 5px solid $complementColor;
+        text-decoration: none;
+        padding-bottom: 7.5px;
+      }
     }
   }
 }

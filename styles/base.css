@@ -205,12 +205,12 @@ section#work .workCard {
         left: 50%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
-        width: 80%; }
+        width: 98%; }
       section#work .workCard .overlayContainer .overlay h4 {
         font-size: 2rem; }
       section#work .workCard .overlayContainer .overlay hr {
         height: 3px;
-        color: #F5E3C9;
+        border-color: #F5E3C9;
         width: 25%;
         background-color: #F5E3C9; }
       section#work .workCard .overlayContainer .overlay p {
