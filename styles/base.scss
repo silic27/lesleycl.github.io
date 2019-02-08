@@ -146,6 +146,17 @@ div#topNavigation {
       }
     }
 
+    .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0; // remove the gap so it doesn't close
+      box-shadow: 0 2.5px 20px 0 rgba(0,0,0,0.15);
+      border: none;
+      padding: 0.5rem 0rem;
+
+      .dropdown-item:active {
+        background-color: $lighterGrey;
+      }
+    }
   }
   button .navbar-toggler-icon {
     color: $highlightColor;

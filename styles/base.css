@@ -91,6 +91,14 @@ div#topNavigation .container {
       transition: width 0.7s ease; }
     div#topNavigation .container .navbar-brand:hover .slider {
       width: 100%; }
+  div#topNavigation .container .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    box-shadow: 0 2.5px 20px 0 rgba(0, 0, 0, 0.15);
+    border: none;
+    padding: 0.5rem 0rem; }
+    div#topNavigation .container .dropdown:hover .dropdown-menu .dropdown-item:active {
+      background-color: #f4f4f4; }
 div#topNavigation button .navbar-toggler-icon {
   color: #002FA7; }
 div#topNavigation li {
