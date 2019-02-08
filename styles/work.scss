@@ -35,9 +35,9 @@ div#topNavigation  {
     max-width: 740px;
 
     .bookmark {
-      position: absolute;
-      left: 40px;
-      top: 1100px;
+      position: fixed;
+      left: 0px;
+      top: 200px;
     }
     
     ul.shortInfo {

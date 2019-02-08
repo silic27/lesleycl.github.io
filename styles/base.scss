@@ -341,6 +341,13 @@ section#work {
       text-decoration: none;
     }
   }
+  #otherWork {
+    .overlayContainer:hover {
+      .overlay {
+        opacity: 0.3;
+      }
+    }
+  }
 }
 section#contact {
   // height: 90%;

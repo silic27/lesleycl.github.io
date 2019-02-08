@@ -238,6 +238,8 @@ section#work .workCard {
     color: #878787; }
   section#work .workCard h5 a:hover {
     text-decoration: none; }
+section#work #otherWork .overlayContainer:hover .overlay {
+  opacity: 0.3; }
 
 section#contact {
   text-align: center; }
@@ -279,9 +281,9 @@ div#topNavigation nav {
   padding-top: 3rem;
   max-width: 740px; }
   .workContent .container .bookmark {
-    position: absolute;
-    left: 40px;
-    top: 1100px; }
+    position: fixed;
+    left: 0px;
+    top: 200px; }
   .workContent .container ul.shortInfo {
     max-width: 100%;
     background-color: #f4f4f4;

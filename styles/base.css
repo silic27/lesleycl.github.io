@@ -238,6 +238,8 @@ section#work .workCard {
     color: #878787; }
   section#work .workCard h5 a:hover {
     text-decoration: none; }
+section#work #otherWork .overlayContainer:hover .overlay {
+  opacity: 0.3; }
 
 section#contact {
   text-align: center; }
